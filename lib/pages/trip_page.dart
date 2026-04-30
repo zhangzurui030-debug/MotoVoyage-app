@@ -33,17 +33,3 @@ class TripPage extends StatelessWidget {
     ),
   ],
 ),
-        itemCount: tripData.length,
-        itemBuilder: (context, index) {
-          return Card(
-            margin: const EdgeInsets.all(10),
-            child: ListTile(
-              title: Text(tripData[index].title),
-              subtitle: Text(tripData[index].description),
-            ),
-          );
-        },
-      ),
-    );
-  }
-}
