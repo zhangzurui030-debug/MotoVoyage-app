@@ -1,34 +1,33 @@
-# MotoVoyage-app
 # 🏍 Moto Voyage App
 
-A motorcycle touring app focused on Hainan Island routes.
+A simple motorcycle touring app focused on Hainan Island routes.
 
-## 📍 Features
+## 📍 Overview
 
-* Route map display (AMap)
-* 5-day Hainan motorcycle itinerary
-* Travel planning interface
-* Scalable project structure
+This project was built during my exploration of combining motorcycle travel with simple app development. It helps organize routes, daily itineraries, and basic map visualization for motorcycle trips.
 
-## 🚀 Project Highlights
+## 🚀 Features
 
-* Built with Flutter for cross-platform development
-* Integrated map-based route visualization
-* Structured travel itinerary system
-* Designed for real-world motorcycle travel use
+* Route map display using AMap
+* 5-day Hainan motorcycle travel itinerary
+* Simple travel planning structure
+* Basic UI for viewing routes and trip details
 
-## 🧠 AI Usage
+## 🧠 How AI is used
 
-* Used AI tools to assist in generating travel itineraries and video shooting scripts
-* Improved planning efficiency and reduced manual content preparation time
+AI tools were used mainly as assistance during planning:
 
-## 🌍 Use Case
+* Generate initial travel itineraries
+* Help draft video shooting scripts
+* Improve efficiency in early-stage content preparation
 
-This project is used in real motorcycle touring and photography workflows, helping organize routes, generate content ideas, and present travel plans more efficiently.
+## 🌍 Practical Use
+
+This app is used in my real motorcycle travel and photography workflow. It helps me quickly organize routes and content ideas, especially when planning multi-day trips.
 
 ## 📸 Screenshots
 
-Coming soon...
+(Will be added later)
 
 ## 👤 Author
 
