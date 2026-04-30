@@ -12,3 +12,6 @@ List<TripDay> tripData = [
   TripDay("Day 4", "三亚 → 东方：西线荒野"),
   TripDay("Day 5", "东方 → 海口：环岛收官"),
 ];
+String generateSummary() {
+  return "本次摩旅共 ${tripData.length} 天，路线覆盖海南经典海岸线与山路，适合边骑行边拍摄。";
+}
