@@ -9,27 +9,30 @@ class TripPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text("摩旅行程")),
       body: Column(
-  children: [
-    Padding(
-      padding: const EdgeInsets.all(12),
-      child: Text(
-        generateSummary(),
-        style: const TextStyle(fontSize: 16),
-      ),
-    ),
-    Expanded(
-      child: ListView.builder(
-        itemCount: tripData.length,
-        itemBuilder: (context, index) {
-          return Card(
-            margin: const EdgeInsets.all(10),
-            child: ListTile(
-              title: Text(tripData[index].title),
-              subtitle: Text(tripData[index].description),
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(12),
+            child: Text(
+              generateSummary(),
+              style: const TextStyle(fontSize: 16),
             ),
-          );
-        },
+          ),
+          Expanded(
+            child: ListView.builder(
+              itemCount: tripData.length,
+              itemBuilder: (context, index) {
+                return Card(
+                  margin: const EdgeInsets.all(10),
+                  child: ListTile(
+                    title: Text(tripData[index].title),
+                    subtitle: Text(tripData[index].description),
+                  ),
+                );
+              },
+            ),
+          ),
+        ],
       ),
-    ),
-  ],
-),
+    );
+  }
+}
