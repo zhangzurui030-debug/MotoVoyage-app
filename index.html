@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Moto Voyage</title>
+</head>
+<body style="background:#0f172a;color:white;text-align:center;padding:50px;font-family:Arial;">
+  <h1>🏍 Moto Voyage</h1>
+  <p>摩托车旅行路线展示 & AI生成系统</p>
+
+  <p>基于真实海南摩旅路线开发，支持路线展示与内容生成。</p>
+
+  <button onclick="gen()">生成路线</button>
+
+  <p id="r"></p>
+
+  <script>
+    function gen(){
+      const routes=[
+        "海口→文昌→万宁→三亚",
+        "三亚→东方→儋州→海口",
+        "海口→五指山→保亭→三亚"
+      ];
+      document.getElementById("r").innerText =
+        "AI生成："+routes[Math.floor(Math.random()*routes.length)];
+    }
+  </script>
+</body>
+</html>
